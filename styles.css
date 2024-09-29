@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: #ff5a5f;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-family:
+}
+
+.pink {
+    background-color: #f7cac9;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-family:Garamond;
+}
+
+.violet {
+    background-color: #b39ddb;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    font-family:
+}
+
+.black {
+    background-color: #333;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family:Brush Script MT;
+}
+
+.green {
+    background-color: #88d8b0;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    font-family:Lucida Handwriting;
+}
+
+.peach {
+    background-color: #f7cac9;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    font-family:Papyrus;
+}
